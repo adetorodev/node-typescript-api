@@ -13,7 +13,7 @@ dotenv.config();
 // const MONGO_URL = 'mongodb+srv://adetorodev19:adetorodev@cluster0.hooi45u.mongodb.net/?retryWrites=true&w=majority'
 const MONGO_URL = 'mongodb://127.0.0.1:27017/apitets'
 
-const port = 4000;
+const port = 7000;
 
 
 const app = express();
