@@ -17,14 +17,14 @@ const port = 7000;
 
 
 const app = express();
-// app.use(express.json);
+app.use(express.json);
 
 app.use(cors({
     credentials: true
 }));
-app.use(compression());
-app.use(cookieParser());
-app.use(bodyParser.json())
+// app.use(compression());
+// app.use(cookieParser());
+// app.use(bodyParser.json())
 
 
 const server = http.createServer(app)
